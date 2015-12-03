@@ -4,23 +4,25 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "q",
+            "title":"Required. The search query's"
+        },
+        {
+            "id": "market",
+            "title":"An ISO 3166-1 alpha-2 country code or the string from_token"
+        },
+        {
+            "id": "limit",
+            "title":"The maximum number of results to return"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "tracks",
+            "title":"Array of tracks"
         }
-      */
     ],
-    "title": "Spotify Search Tracks" /* Required.A display name for the module */
+    "title": "Spotify Search Albums" /* Required.A display name for the module */
 }
