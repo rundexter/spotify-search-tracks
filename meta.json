@@ -20,10 +20,32 @@
     //Required. Outputs the module emits.
     "outputs": [
         {
-            "id": "tracks",
-            "title":"Array of tracks"
+            "id": "name",
+            "title":"Track"
+        },
+        {
+            "id": "artists",
+            "title":"Artists"
+        },
+        {
+            "id": "album",
+            "title":"Album"
+        },
+        {
+            "id": "uri",
+            "title":"URI"
+        },
+        {
+            "id": "href",
+            "title":"URL"
         }
     ],
+    "providers": [{
+        "name": "spotify",
+        "scopes": [
+            "user-read-private"
+        ]
+    }],
     "icon": "spotify",
     "title": "Spotify Search Tracks" /* Required.A display name for the module */
 }
